@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-georgia: "Georama", sans-serif;
+  --font-pacifico: "Pacifico", cursive;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--font-inter);
+}
